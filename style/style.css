@@ -183,3 +183,12 @@ main {
     background: rgb(255, 255, 255);
     margin-top: 50px;
 }
+
+/* Resume section style */
+.resume-title{
+    text-align: center;
+    margin-top: 130px;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 113px;
+}
