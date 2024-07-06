@@ -19,34 +19,6 @@
 }
 
 /* Button style */
-.btn-2 {
-    color: white;
-    text-align: center;
-    background-color: #FD6E0A;
-    font-size: 20px;
-    font-weight: 700;
-    border: none;
-    border-radius: 5px;
-    padding: 19px 18px;
-
-}
-
-.btn-3 {
-    color: #FD6E0A;
-    box-sizing: border-box;
-    border: 1px solid rgb(253, 110, 10);
-    border-radius: 5px;
-    padding: 19px 18px;
-    text-align: center;
-    font-weight: 700;
-    
-    
-
-}
-
-
-
-
 
 .btn-primary {
     background-color: #FD6E0A;
@@ -56,6 +28,18 @@
     border: none;
     border-radius: 5px;
     padding: 18px 35px;
+}
+
+.btn-2 {
+    color: #FD6E0A;
+    text-align: center;
+    background-color: none;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid#FD6E0A;
+    border-radius: 5px;
+    padding: 19px 18px;
+
 }
 
 /* Nav styles */
@@ -90,6 +74,25 @@ nav ul a {
     font-size: 20px;
 }
 
+/* Header */
+.header{
+    background-image: url("../assets/images/developer.png"), url("../assets/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+
+/* Banner styles */
+
+.banner-content{
+    max-width: 585px;
+}
+
+.banner-greatings {
+    color: #474747;
+    font-size: 45px;
+
+}
+
 .name {
     font-size: 85px;
     color: #181818;
@@ -98,4 +101,10 @@ nav ul a {
 .banner-description {
     font-size: 18px;
 
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
 }
