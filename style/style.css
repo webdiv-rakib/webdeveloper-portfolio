@@ -262,8 +262,27 @@ footer textarea {
 
     .skills-container,
     .resume-container,
-    .information {
+    .information,
+    .banner,
+    nav,
+    nav>ul {
         flex-direction: column;
+    }
+
+    nav>ul {
+        gap: 5px;
+    }
+
+    .banner {
+        margin: 0 auto;
+    }
+
+    .banner-pro-pic {
+        width: 100%;
+    }
+
+    .header {
+        background-image: none;
     }
 
     footer {
