@@ -252,13 +252,33 @@ footer textarea {
     border: none;
 
 }
+
 /* Responsive media query */
-.hide{
+.hide {
     display: none;
 }
 
 @media screen and (max-width: 700px) {
-    .skills-container{
+    .skills-container {
         flex-direction: column;
+    }
+
+    .resume-container {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    footer input[type="text"],
+    footer input[type="email"],
+    footer textarea {
+       width: calc(100% - 40px); 
     }
 }
